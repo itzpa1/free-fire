@@ -1,0 +1,41 @@
+body {
+    background: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 450px;
+    padding: 80px 40px;
+    background: rgba(202, 192, 192, 0.6);
+    border-radius: 10px;
+}
+.container h2 {
+    text-align: center;
+    font-family: 'segoe UI';
+    padding-top: 100px;
+}
+.container a {
+    margin-top: 25px;
+    display: inline-block;
+    padding: 10px 25px;
+    border: 5px solid blue;
+    background: transparent;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
